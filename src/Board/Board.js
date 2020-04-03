@@ -3,7 +3,7 @@ import Square from '../Square/Square';
 
 class Board extends Component {
   state = {
-    board: ["A","B","C","D","E","F","G","H","J",]
+    board: ["X","O","X","O","X","O","X","O","X"]
   }
 
   renderSquare(i) {
@@ -35,14 +35,14 @@ class Board extends Component {
           {this.renderSquare(this.state.board[2])}
         </div>
         <div className="board-row">
-          {this.renderSquare(3)}
-          {this.renderSquare(4)}
-          {this.renderSquare(5)}
+          {this.renderSquare(this.state.board[3])}
+          {this.renderSquare(this.state.board[4])}
+          {this.renderSquare(this.state.board[5])}
         </div>
         <div className="board-row">
-          {this.renderSquare(6)}
-          {this.renderSquare(7)}
-          {this.renderSquare(8)}
+          {this.renderSquare(this.state.board[6])}
+          {this.renderSquare(this.state.board[7])}
+          {this.renderSquare(this.state.board[8])}
         </div>
       </div>
     );

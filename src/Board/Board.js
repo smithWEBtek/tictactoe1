@@ -28,6 +28,7 @@ class Board extends Component {
 
     return (
       <div>
+        <div className="status">{this.props.gameStatus}</div>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(this.state.board[0])}

@@ -49,3 +49,8 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.Board {
+  border: 2px solid green;
+  border-radius: 12px;
+}

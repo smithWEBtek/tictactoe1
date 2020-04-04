@@ -47,6 +47,7 @@ ol, ul {
 }
 
 .game-info {
+  border: 2px solid yellowgreen;
   margin-left: 20px;
 }
 
